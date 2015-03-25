@@ -12,8 +12,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var factLabel: UILabel!
     
+    let funFactBook = FunFactBook()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        factLabel.text = funFactBook.randomFunFact()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -23,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func factButton() {
-        factLabel.text = "Jenky es PATO"
+       factLabel.text = funFactBook.randomFunFact()
     }
 
 }

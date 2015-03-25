@@ -13,6 +13,7 @@
 		AEEEE2FF1AC1E16500ADD714 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEEE2FE1AC1E16500ADD714 /* Images.xcassets */; };
 		AEEEE3021AC1E16500ADD714 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEEE3001AC1E16500ADD714 /* LaunchScreen.xib */; };
 		AEEEE30E1AC1E16600ADD714 /* funfactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEEE30D1AC1E16600ADD714 /* funfactTests.swift */; };
+		AEEEE3181AC260AA00ADD714 /* FunFactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEEE3171AC260AA00ADD714 /* FunFactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AEEEE3071AC1E16600ADD714 /* funfactTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funfactTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEEE30C1AC1E16600ADD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEEEE30D1AC1E16600ADD714 /* funfactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funfactTests.swift; sourceTree = "<group>"; };
+		AEEEE3171AC260AA00ADD714 /* FunFactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunFactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				AEEEE2FE1AC1E16500ADD714 /* Images.xcassets */,
 				AEEEE3001AC1E16500ADD714 /* LaunchScreen.xib */,
 				AEEEE2F51AC1E16500ADD714 /* Supporting Files */,
+				AEEEE3171AC260AA00ADD714 /* FunFactBook.swift */,
 			);
 			path = funfact;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEEE3181AC260AA00ADD714 /* FunFactBook.swift in Sources */,
 				AEEEE2FA1AC1E16500ADD714 /* ViewController.swift in Sources */,
 				AEEEE2F81AC1E16500ADD714 /* AppDelegate.swift in Sources */,
 			);
