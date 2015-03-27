@@ -10,6 +10,7 @@ import Foundation
 
 
 struct FunFactBook{
+    
     let factsArray = [
         "Ants stretch when they wake up in the morning.",
         "Ostriches can run faster than horses.",
